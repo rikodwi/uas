@@ -1,15 +1,7 @@
-<?php
+<?php  
+$colors = array("red", "green", "blue", "yellow"); 
 
-$color = "red";
-switch ($color) {
-    case "red";
-        echo "benar";
-        break;
-
-
-    case "green":
-        echo "salah";
-        break;
+foreach ($colors as $x) {
+  echo "$x <br>";
 }
-
-?>
+?>  
